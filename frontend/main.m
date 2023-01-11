@@ -38,6 +38,7 @@ end
 
 SNR = 15;
 wifi_msg_rst = wifi_sig_rec(wifi_sig_time, SNR); % restored wifi message
+%wifi_msg_rst = wifi_sig_rec(wifi_sig_time); % restore wifi without injecting noise 
 
 % ERROR RATE CHECK --------------------------------------------------------
 
