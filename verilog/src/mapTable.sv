@@ -35,7 +35,7 @@ module mapTable(
     );
     
     logic [25:0] out;
-    assign out = {q,i};
+    assign {q,i} = out;
     
     always_comb begin
         if ( en && is_zero ) begin
